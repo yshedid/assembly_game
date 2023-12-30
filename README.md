@@ -1,5 +1,5 @@
 # assembly_game
-The provided code is written in x86 assembly language and appears to be a simple game implemented using the DOS interrupt services. It creates a basic game environment where a player (represented by the '@' character) can move up, down, left, and right to avoid enemies (represented by the '&' character) falling from the top of the screen. The game keeps track of the player's score, which increases when enemies reach the bottom of the screen without colliding with the player.
+The game is written in x86 assembly language and  it is a simple game implemented using the DOS interrupt services. It creates a basic game environment where a player (represented by the '@' character) can move up, down, left, and right to avoid enemies (represented by the '&' character) falling from the left of the screen. The game keeps track of the player's score, which increases when enemies reach the right of the screen without colliding with the player.
 
 Here's a brief documentation for the main components of the code:
 
@@ -47,4 +47,3 @@ The score variable keeps track of the player's score.
 Map Design:
 
 The map section defines the game environment with '#' representing walls and empty spaces.
-Note: The code is written for the DOS environment and relies on DOS interrupts, which may not be directly executable on modern systems. It's more of a historical example and may require an emulator or a DOS-compatible environment to run. Additionally, the code lacks comments, which would be helpful for understanding specific sections and logic in detail.
